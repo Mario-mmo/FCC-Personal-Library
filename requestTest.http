@@ -1,0 +1,29 @@
+
+### POST New Book
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+{
+    "title": "aaa"
+}
+
+### GET all books
+GET http://localhost:3000/api/books
+
+### DELETE all books
+
+DELETE http://localhost:3000/api/books
+
+### GET book by id
+GET http://localhost:3000/api/books/64d39f363b9320f4cb325f54
+
+### POST comment by book id
+POST http://localhost:3000/api/books/64d37ce4fc5b34bab9dbfea2
+Content-Type: application/json
+
+{
+    "comment": "hgdh"
+}
+
+### DELETE book
+DELETE http://localhost:3000/api/books/64d37b4e4b24b03614ec839b
